@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400&display=swap');
+
+body {
+    margin: 20px;
+   font-family: 'Karla', sans-serif;
+}
+
+.container {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+input, button {
+    font-family: inherit;
+}
+
+input {
+    width: 90%;
+    text-align: center;
+}
+
+button {
+    width: 93%;
+    background: #fff;
+    border: 2px solid #000;
+
+    border-image-slice: 1;
+    border-image-source: linear-gradient(115deg, #F5624D, #CC231E, #34A65F, #0F8A5F, #235E6F);
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: whitesmoke;
+    border-image-source: linear-gradient(115deg, #235E6F, #0F8A5F, #34A65F, #CC231E, #F5624D);
+    
+}
+
+.secret-santa {
+    font-size: 18px;
+    width: 92%;
+    text-align: center;
+}
